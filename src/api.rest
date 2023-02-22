@@ -1,0 +1,37 @@
+GET http://localhost:8080/
+
+###
+POST http://localhost:8080/add
+Content-Type: application/json
+
+{
+    "num1":10,
+    "num2":20
+}
+
+###
+POST http://localhost:8080/sub
+Content-Type: application/json
+
+{
+    "num1":20,
+    "num2":10
+}
+
+###
+POST http://localhost:8080/multiply
+Content-Type: application/json
+
+{
+    "num1":20,
+    "num2":10
+}
+
+###
+POST http://localhost:8080/divide
+Content-Type: application/json
+
+{
+    "num1":20,
+    "num2":10
+}
